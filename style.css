@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #1b1b32;
+    font-family: Arial, sans-serif;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    
+    color: white;
+
+    font-size: 40px;
+    background-color: black;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.box{
+    display: flex;
+    gap: 25px;
+    margin-bottom: 40px;
+}
+
+button{
+    width: 140px;
+    height: 60px;
+    border: 2px solid white;
+    border-radius: 12px;
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+#stonebtn:hover{
+    background: #ff4d4d;
+}
+
+#paperbtn:hover{
+    background: #00c853;
+}
+
+#scissorbtn:hover{
+    background: #2979ff;
+}
+
+button:hover{
+    transform: translateY(-5px);
+}
+
+#result{
+    width: 350px;
+    text-align: center;
+    background: white;
+    color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#score{
+    width: 350px;
+    text-align: center;
+    background: gold;
+    color: black;
+    padding: 15px;
+    border-radius: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
